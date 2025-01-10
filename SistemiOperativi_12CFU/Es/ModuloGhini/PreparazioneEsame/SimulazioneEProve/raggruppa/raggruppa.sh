@@ -1,0 +1,1 @@
+while read A B MOTIVO D; do echo $MOTIVO $(grep -c "$MOTIVO" "raggruppa.txt"); done < "raggruppa.txt" | sort | uniq 
