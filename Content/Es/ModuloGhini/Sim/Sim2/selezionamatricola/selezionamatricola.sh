@@ -1,0 +1,1 @@
+grep -B 1 "SISTEMI OPERATIVI" | grep -v "SISTEMI OPERATIVI"
